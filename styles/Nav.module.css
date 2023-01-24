@@ -12,6 +12,9 @@
 .nav > div > * {
     border: 1px dotted red;
     padding: 18px;
+    font-size: 1.2rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .main {

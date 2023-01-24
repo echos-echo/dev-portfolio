@@ -29,7 +29,7 @@ export default function Nav() {
                 <Link href="/gallery">Gallery</Link>
             </div>
             <div>
-                <Link href="/about">about</Link>
+                <Link href="/about">About</Link>
             </div>
         </div>)
         :
