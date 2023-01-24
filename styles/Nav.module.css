@@ -1,0 +1,20 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+.nav {
+    width: 20%;
+    background-color: brown;
+}
+
+.nav > div > * {
+    padding: 18px;
+}
+
+.main {
+    width: 80%;
+    padding: 20px;;
+    background-color: green;
+}
