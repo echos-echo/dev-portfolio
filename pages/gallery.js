@@ -18,7 +18,12 @@ export default function Gallery() {
         </h1>
 
         <p className={styles.description}>
-          some sort of description
+          <ul>
+            <li>i see hue</li>
+            <li>Optimate</li>
+            <li>Pokemon TCG Shop</li>
+            <li>Progress Journal</li>
+          </ul>
         </p>
       
       </main>

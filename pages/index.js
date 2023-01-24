@@ -43,8 +43,8 @@ export default function Home() {
         </div>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          {/* Get started by editing{' '}
+          <code className={styles.code}>pages/index.js</code> */}
         </p>
 
       </main>

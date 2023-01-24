@@ -18,7 +18,21 @@ export default function About() {
         </h1>
 
         <p className={styles.description}>
-          some sort of description
+          <ul>
+            <li>Hi. My name is Eve Cho. I&apos;m a software engineer committed to combining artistry with logic</li>
+            <li>When I&apos;m not coding, you can find me drawing, gaming, or cosplaying.</li>
+          </ul>
+          skillset????
+          <ul>
+            <li>js</li>
+            <li>node js</li>
+            <li>react</li>
+            <li>redux</li>
+            <li>postgresql</li>
+            <li>html</li>
+            <li>css</li>
+            <li>next</li>
+          </ul>
         </p>
         
       </main>
