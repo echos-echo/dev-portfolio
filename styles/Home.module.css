@@ -12,21 +12,16 @@
   align-items: center;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
 .title {
+  display: flex;
+  align-items: center;
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  line-height: 2.0;
+  font-size: 5rem;
+}
+
+.title > * {
+  padding: 15px;
 }
 
 .title,
@@ -85,6 +80,7 @@
 }
 
 .splash {
+  border: 2px dotted white;
   display: flex;
   flex-direction: row;
 }
@@ -93,13 +89,19 @@
   margin-left: 5px;
   margin-right: 5px;
   width: fit-content;
-  border: 2px dotted white;
+  
   display: flex;
   flex-direction: column;
 }
 
 .splash p {
   margin: 12px;
+}
+
+.splashLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 600px) {

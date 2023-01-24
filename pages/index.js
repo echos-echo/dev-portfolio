@@ -14,11 +14,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          E.Cho
+        <Image src="/echo.png" width={120} height={120} alt='green and yellow logo of `echo`'/>
+          <>E.Cho</>
         </h1>
 
         <div className={styles.splash}>
-          <div>
+          <div className={styles.splashLeft}>
             <p>o</p>
             <p>|</p>
             <p>o</p>
