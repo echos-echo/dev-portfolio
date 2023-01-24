@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ReactDOM } from "react";
+import Link from "next/link";
 
 export default function Nav() {
     const [bar, setBar] = useState('desktop');
@@ -21,8 +22,20 @@ export default function Nav() {
 
     return (
         bar === 'desktop' ? 
-        (<div>navigation for desktop</div>)
+        (<div>
+            <div><Link href="/">E.cho</Link></div>
+            <div>
+                <Link href="/gallery">Gallery</Link>
+            </div>
+            <div>
+                <Link href="/about">about</Link>
+            </div>
+        </div>)
         :
-        (<div>navigation for mobile</div>)
+        (<div>
+            <div>icon</div>
+            <div>icon</div>
+            <div>icon</div>
+        </div>)
     )
 }
