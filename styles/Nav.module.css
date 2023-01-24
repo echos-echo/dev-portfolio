@@ -10,6 +10,7 @@
 }
 
 .nav > div > * {
+    border: 1px dotted red;
     padding: 18px;
 }
 
@@ -29,15 +30,31 @@
     }
 
     .nav {
+        height: 80px;
         position: absolute;
         bottom: 0;
         width: 100%;
     }
 
-    .nav > div{
+    .nav > div {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        
+    }
+
+    .nav > div > * {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+    }
+
+    .nav a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid white;
+        width: 80px;
+        height: 80px;
     }
 }

@@ -17,7 +17,7 @@ export default function About() {
           This is where I talk about myself
         </h1>
 
-        <p className={styles.description}>
+        <div className={styles.description}>
           <ul>
             <li>Hi. My name is Eve Cho. I&apos;m a software engineer committed to combining artistry with logic</li>
             <li>When I&apos;m not coding, you can find me drawing, gaming, or cosplaying.</li>
@@ -33,7 +33,7 @@ export default function About() {
             <li>css</li>
             <li>next</li>
           </ul>
-        </p>
+        </div>
         
       </main>
     </div>

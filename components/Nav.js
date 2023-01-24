@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ReactDOM } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Nav() {
     const [bar, setBar] = useState('desktop');
@@ -23,7 +24,7 @@ export default function Nav() {
     return (
         bar === 'desktop' ? 
         (<div>
-            <div><Link href="/">E.cho</Link></div>
+            <div><Link href="/"><Image src="/echo.png" width={60} height={60} alt='green and yellow logo of `echo`'/></Link></div>
             <div>
                 <Link href="/gallery">Gallery</Link>
             </div>
@@ -33,9 +34,9 @@ export default function Nav() {
         </div>)
         :
         (<div>
-            <div>icon</div>
-            <div>icon</div>
-            <div>icon</div>
+            <Link href="/"><Image src="/echo.png" width={50} height={50} alt='green and yellow logo of `echo`'/></Link>
+            <Link href="/gallery">Gallery</Link>
+            <Link href="/about">About</Link>
         </div>)
     )
 }

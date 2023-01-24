@@ -17,14 +17,14 @@ export default function Gallery() {
           This is where my projects go
         </h1>
 
-        <p className={styles.description}>
+        <div className={styles.description}>
           <ul>
             <li>i see hue</li>
             <li>Optimate</li>
             <li>Pokemon TCG Shop</li>
             <li>Progress Journal</li>
           </ul>
-        </p>
+        </div>
       
       </main>
     </div>
