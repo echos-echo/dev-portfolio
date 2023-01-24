@@ -20,11 +20,11 @@ export default function Home() {
 
         <div className={styles.splash}>
           <div className={styles.splashLeft}>
-            <p>o</p>
-            <p>|</p>
-            <p>o</p>
-            <p>|</p>
-            <p>o</p>
+            <p>◇</p>
+            <p>⏐</p>
+            <p>◇</p>
+            <p>⏐</p>
+            <p>◇</p>
           </div>
           <div>
             <p>creator</p>
