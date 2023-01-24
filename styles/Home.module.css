@@ -12,22 +12,6 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -65,14 +49,6 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -106,6 +82,24 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.splash {
+  display: flex;
+  flex-direction: row;
+}
+
+.splash > div {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: fit-content;
+  border: 2px dotted white;
+  display: flex;
+  flex-direction: column;
+}
+
+.splash p {
+  margin: 12px;
 }
 
 @media (max-width: 600px) {
