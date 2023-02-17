@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-        <Image src="/echo.png" width={120} height={120} alt='green and yellow logo of `echo`'/>
+        {/* <Image src="/echo.png" width={120} height={120} alt='green and yellow logo of `echo`'/> */}
           <>E.Cho</>
         </h1>
 
@@ -36,11 +36,14 @@ export default function Home() {
         </div>
 
         <div className={styles.card}>
+          <a>MORE COMING SOON</a>
+        </div>
+        {/* <div className={styles.card}>
           <Link href="/gallery">&gt; GALLERY</Link>
         </div>
         <div className={styles.card}>
           <Link href="/about">&gt; ABOUT ME</Link>
-        </div>
+        </div> */}
       </main>
 
     </div>
