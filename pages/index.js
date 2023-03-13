@@ -15,11 +15,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <SplashContainer/>
-        <div className={styles.card}>
-          <a>MORE COMING SOON</a>
-        </div>
+          <h1>MORE COMING SOON</h1>
       </main>
-
     </div>
   )
 }

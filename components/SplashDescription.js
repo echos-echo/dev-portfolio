@@ -3,6 +3,7 @@ import { ReactDOM } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import NavButtons from "./NavButtons";
 
 export default function SplashDescription() {
     return (
@@ -16,12 +17,8 @@ export default function SplashDescription() {
             </div>
             <div>the outer div should be a flexbox with flex-direction column</div>
             <div>my links and stuff will go below here too</div>
-            <div>
-                <Link href="/gallery">Gallery</Link>
-            </div>
-            <div>
-                <Link href="/about">About</Link>
-            </div>
+            <NavButtons href='' name='Gallery'/>
+            <NavButtons href='' name='About'/>
         </div>
     )
 }
