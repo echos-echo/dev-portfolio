@@ -11,12 +11,6 @@ export default function SplashContainer() {
         <div>
             <SplashTitle/>
             <SplashDescription/>
-            <div>
-                <Link href="/gallery">Gallery</Link>
-            </div>
-            <div>
-                <Link href="/about">About</Link>
-            </div>
         </div>
     )
 }

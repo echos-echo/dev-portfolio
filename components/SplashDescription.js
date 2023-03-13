@@ -7,11 +7,21 @@ import { useRouter } from "next/router";
 export default function SplashDescription() {
     return (
         <div>
-            <div>some information about me goes here</div>
-            <div>like how im an engineer and stuff</div>
-            <div>and how im a creator blah blah</div>
-            <div>my links and stuff will go below here too</div>
+            <div>
+                <p>creator</p>
+                <p>◇</p>
+                <p>software engineer</p>
+                <p>◇</p>
+                <p>artist</p>
+            </div>
             <div>the outer div should be a flexbox with flex-direction column</div>
+            <div>my links and stuff will go below here too</div>
+            <div>
+                <Link href="/gallery">Gallery</Link>
+            </div>
+            <div>
+                <Link href="/about">About</Link>
+            </div>
         </div>
     )
 }

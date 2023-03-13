@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import SplashContainer from '../components/SplashContainer'
 
 export default function Home() {
   return (
@@ -13,33 +14,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
-        <div className={styles.splash}>
-          <div className={styles.splashLeft}>
-            <p>◇</p>
-            <p>⏐</p>
-            <p>◇</p>
-            <p>⏐</p>
-            <p>◇</p>
-          </div>
-          <div>
-            <p>creator</p>
-            <p>&nbsp;</p>
-            <p>software engineer</p>
-            <p>&nbsp;</p>
-            <p>artist</p>
-          </div>
-        </div>
-
+        <SplashContainer/>
         <div className={styles.card}>
           <a>MORE COMING SOON</a>
         </div>
-        {/* <div className={styles.card}>
-          <Link href="/gallery">&gt; GALLERY</Link>
-        </div>
-        <div className={styles.card}>
-          <Link href="/about">&gt; ABOUT ME</Link>
-        </div> */}
       </main>
 
     </div>
