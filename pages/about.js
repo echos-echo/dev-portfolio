@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 import Nav from '../components/Nav'
-import styles from '../styles/Nav.module.css'
+import PageTitle from '../components/PageTitle'
+import styles from '../styles/Home.module.css'
 
 export default function About() {
   return (
@@ -11,31 +14,23 @@ export default function About() {
         <title>E.cho - about me</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.nav}><Nav/></div>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          This is where I talk about myself
-        </h1>
+      <Nav/>
+      <Header/>
+      <div className={styles.main}>
+        <PageTitle title='About'/>
 
         <div className={styles.description}>
-          <ul>
-            <li>Hi. My name is Eve Cho. I&apos;m a software engineer committed to combining artistry with logic</li>
-            <li>When I&apos;m not coding, you can find me drawing, gaming, or cosplaying.</li>
-          </ul>
-          skillset????
-          <ul>
-            <li>js</li>
-            <li>node js</li>
-            <li>react</li>
-            <li>redux</li>
-            <li>postgresql</li>
-            <li>html</li>
-            <li>css</li>
-            <li>next</li>
-          </ul>
+          row with logos for ways to contact me 
+          <br/>
+          there&apos;ll be some description about me here
+          <br/>
+          as well as an image of me
+          <br/>
+          and then some of my skillset etc 
         </div>
         
-      </main>
+      </div>
+      <Footer/>
     </div>
   )
 }
