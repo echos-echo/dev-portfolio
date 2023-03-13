@@ -11,8 +11,8 @@ export default function NavButtons(props) {
     const {pathname} = useRouter();
 
     return (
-        <Link href={link}>
-            <div className={styles.navButton}>
+        <Link href={link} className={styles.navButton}>
+            <div >
                 {buttonLabel}{pathname.includes(link) ? ' ⟽' : null}
             </div>
         </Link>

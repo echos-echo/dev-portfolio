@@ -35,7 +35,7 @@ export default function Nav() {
     return (
         <div className={styles.nav} id='navbar'>
             <NavButtons href='gallery' name='Gallery'/>
-            <NavButtons href='about' name='about'/>
+            <NavButtons href='about' name='About'/>
         </div>
     )
 }
