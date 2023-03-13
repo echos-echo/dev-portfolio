@@ -8,11 +8,12 @@ import styles from '../styles/Home.module.css'
 export default function NavButtons(props) {
     const link = '/' + props.href;
     const buttonLabel = props.name;
+    const {pathname} = useRouter();
 
     return (
         <Link href={link}>
             <div className={styles.card}>
-                {buttonLabel}
+                {buttonLabel}{pathname.includes(link) ? ' ⟽' : null}
             </div>
         </Link>
     )

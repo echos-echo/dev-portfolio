@@ -17,8 +17,8 @@ export default function SplashDescription() {
             </div>
             <div>the outer div should be a flexbox with flex-direction column</div>
             <div>my links and stuff will go below here too</div>
-            <NavButtons href='' name='Gallery'/>
-            <NavButtons href='' name='About'/>
+            <NavButtons href='gallery' name='Gallery'/>
+            <NavButtons href='about' name='About'/>
         </div>
     )
 }
