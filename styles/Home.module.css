@@ -100,7 +100,13 @@
   margin-left: 0.5rem;
 }
 
-
+.splashDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
 
 @media (max-width: 600px) {
   .grid {
