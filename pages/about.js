@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
+import PageTitle from '../components/PageTitle'
 import styles from '../styles/Home.module.css'
 
 export default function About() {
@@ -16,9 +17,7 @@ export default function About() {
       <Nav/>
       <Header/>
       <div className={styles.main}>
-        <h1 className={styles.title}>
-          This is where I talk about myself
-        </h1>
+        <PageTitle title='About'/>
 
         <div className={styles.description}>
           <ul>
