@@ -3,10 +3,19 @@ import { ReactDOM } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import NavButtons from "./NavButtons";
+import styles from "../styles/Nav.module.css"
 
 export default function Nav() {
     const [bar, setBar] = useState('desktop');
     const [width, setWidth] = useState(undefined);
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-100px";
+        }
+      }
 
     useEffect(() => {
         if (width < 500) {
@@ -20,11 +29,11 @@ export default function Nav() {
         window.addEventListener('resize', ()=> {
             setWidth(window.innerWidth);
         })
+        window.addEventListener('scroll', scrollFunction);
     }, []);
 
     return (
-        <div>
-            <div><Link href="/"><Image src="/echo.png" width={60} height={60} alt='green and yellow logo of `echo`'/></Link></div>
+        <div className={styles.nav} id='navbar'>
             <NavButtons href='gallery' name='Gallery'/>
             <NavButtons href='about' name='about'/>
         </div>

@@ -1,25 +1,19 @@
-.container {
-    height: 100vh;
+.nav {
+    position: fixed;
+    top: -100px;
+    width: 100vw;
+    height: 100px;
+    background-color: brown;
     display: flex;
     flex-direction: row;
-  }
-
-.nav {
-    width: 20%;
-    background-color: brown;
-}
-
-.nav > div > * {
-    border: 1px dotted red;
-    padding: 18px;
-    font-size: 1.2rem;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+    justify-content: space-evenly;
+    transition: top 0.3s;
 }
 
 .main {
-    width: 80%;
-    padding: 20px;;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
     background-color: green;
 }
 

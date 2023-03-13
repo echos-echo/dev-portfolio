@@ -1,7 +1,9 @@
 .container {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-  padding: 0 2rem;
+  Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .main {
@@ -37,7 +39,7 @@
   font-size: 1.5rem;
 }
 
-.card {
+.navButton {
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -49,19 +51,19 @@
   max-width: 300px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
+.navButton:hover,
+.navButton:focus,
+.navButton:active {
   color: #0070f3;
   border-color: #0070f3;
 }
 
-.card h2 {
+.navButton h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
-.card p {
+.navButton p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -108,7 +110,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .card,
+  .navButton,
   .footer {
     border-color: #222;
   }

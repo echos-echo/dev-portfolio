@@ -12,7 +12,7 @@ export default function NavButtons(props) {
 
     return (
         <Link href={link}>
-            <div className={styles.card}>
+            <div className={styles.navButton}>
                 {buttonLabel}{pathname.includes(link) ? ' ⟽' : null}
             </div>
         </Link>
