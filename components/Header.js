@@ -10,6 +10,7 @@ export default function Header() {
     return (
         <div className={styles.header}>
             placeholder but this will be a header
+            <br/>
             <Link href="/">for now if you click on this you can return to splash</Link>
         </div>
     )

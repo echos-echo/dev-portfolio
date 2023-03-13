@@ -20,21 +20,13 @@ export default function About() {
         <PageTitle title='About'/>
 
         <div className={styles.description}>
-          <ul>
-            <li>Hi. My name is Eve Cho. I&apos;m a software engineer committed to combining artistry with logic</li>
-            <li>When I&apos;m not coding, you can find me drawing, gaming, or cosplaying.</li>
-          </ul>
-          skillset????
-          <ul>
-            <li>js</li>
-            <li>node js</li>
-            <li>react</li>
-            <li>redux</li>
-            <li>postgresql</li>
-            <li>html</li>
-            <li>css</li>
-            <li>next</li>
-          </ul>
+          row with logos for ways to contact me 
+          <br/>
+          there&apos;ll be some description about me here
+          <br/>
+          as well as an image of me
+          <br/>
+          and then some of my skillset etc 
         </div>
         
       </div>
