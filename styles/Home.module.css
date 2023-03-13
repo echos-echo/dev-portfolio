@@ -100,33 +100,7 @@
   margin-left: 0.5rem;
 }
 
-.splash {
-  padding: 12px;
-  margin: 7px;
-  border: 2px dotted white;
-  display: flex;
-  flex-direction: row;
-}
 
-.splash > div {
-  margin-left: 5px;
-  margin-right: 5px;
-  width: fit-content;
-  
-  display: flex;
-  flex-direction: column;
-}
-
-.splash p {
-  margin: 12px;
-  line-height: 19px;
-}
-
-.splashLeft {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 @media (max-width: 600px) {
   .grid {
