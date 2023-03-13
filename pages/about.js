@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import styles from '../styles/Home.module.css'
@@ -14,7 +15,7 @@ export default function About() {
       </Head>
       <Nav/>
       <Header/>
-      <main className={styles.main}>
+      <div className={styles.main}>
         <h1 className={styles.title}>
           This is where I talk about myself
         </h1>
@@ -37,7 +38,8 @@ export default function About() {
           </ul>
         </div>
         
-      </main>
+      </div>
+      <Footer/>
     </div>
   )
 }
