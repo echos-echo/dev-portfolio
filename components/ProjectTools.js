@@ -10,8 +10,6 @@ export default function ProjectTools(props) {
     const toolsFormatted = tools.join(' / ');
 
     return (
-        <div className={''}>
-            <p>Created with: {toolsFormatted}</p>
-        </div>
+        <p>Created with: {toolsFormatted}</p>
     )
 }

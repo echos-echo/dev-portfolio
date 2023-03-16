@@ -9,8 +9,6 @@ export default function ProjectTitle(props) {
     const title = props.title;  // tools will be an array of the tech stack used for project
 
     return (
-        <div className={''}>
-            <h2>{title}</h2>
-        </div>
+        <h2>{title}</h2>
     )
 }

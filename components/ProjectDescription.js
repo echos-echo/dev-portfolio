@@ -9,8 +9,6 @@ export default function ProjectDescription(props) {
     const description = props.description;
 
     return (
-        <div className={''}>
-            <p>{description}</p>
-        </div>
+        <p>{description}</p>
     )
 }

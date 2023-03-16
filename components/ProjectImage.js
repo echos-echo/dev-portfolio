@@ -12,8 +12,6 @@ export default function ProjectImage(props) {
     const alt = props.alt;
 
     return (
-        <div className={''}>
-            <Image src={imagePath} height={height} width={width} alt={alt} quality={90} style={{height: "auto", width:"80vw"}}/>
-        </div>
+        <Image src={imagePath} height={height} width={width} alt={alt} quality={90} style={{height: "auto", width:"80vw"}}/>
     )
 }
