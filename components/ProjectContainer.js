@@ -15,11 +15,15 @@ export default function ProjectContainer(props) {
     // title, imagePath, height, width, imgAlt, description, tools, repoURL, siteURL
     return (
         <div className={styles.projectContainer}>
-            <ProjectTitle title={props.title}/>
-            <ProjectImage imagePath={props.imagePath} height={props.height} width={props.width} alt={props.imgAlt}/>
-            <ProjectDescription description={props.description}/>
-            <ProjectTools tools={props.tools}/>
-            <ProjectLinks repo={props.repoURL} siteURL={props.siteURL} name={props.title}/>
+            <div className={styles.projectLeft}>
+                <ProjectTitle title={props.title}/>
+                <ProjectDescription description={props.description}/>
+                <ProjectTools tools={props.tools}/>
+                <ProjectLinks repo={props.repoURL} siteURL={props.siteURL} name={props.title}/>
+            </div>
+            <div className={styles.projectRight}>
+                <ProjectImage imagePath={props.imagePath} height={props.height} width={props.width} alt={props.imgAlt}/>
+            </div>
         </div>
     )
 }

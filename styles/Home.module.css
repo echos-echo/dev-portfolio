@@ -39,6 +39,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .title {
@@ -115,6 +116,19 @@
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+  width: 85vw;
+  justify-content: space-evenly;
+}
+
+.projectRight, .projectLeft {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 @media (max-width: 600px) {
