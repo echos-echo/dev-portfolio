@@ -15,9 +15,9 @@ export default function ProjectLinks(props) {
             placeholder but this will be where links relevant to a project will go
             <br/>
             {/* repository link */}
-            <a href={repo}>Check out {projectName}&apos;s repository</a>
+            <a href={repo} rel={'noreferrer'} target={'_blank'}>Check out {projectName}&apos;s repository</a>
             {/* site link ONLY if it exists */}
-            {siteURL !== null ? <a href={repo}>Check out {projectName} here</a> : null}
+            {siteURL !== null ? <a href={siteURL} rel={'noreferrer'} target={'_blank'}>Check out {projectName} here</a> : null}
         </div>
     )
 }
