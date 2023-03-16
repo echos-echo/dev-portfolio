@@ -11,6 +11,8 @@ import ProjectTools from "./ProjectTools";
 import ProjectLinks from "./ProjectLinks";
 
 export default function ProjectContainer(props) {
+    // props needed are
+    // title, imagePath, height, width, imgAlt, description, tools, repoURL, siteURL
     return (
         <div className={styles.projectContainer}>
             <ProjectTitle title={props.title}/>

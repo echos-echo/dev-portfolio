@@ -13,7 +13,7 @@ export default function ProjectImage(props) {
 
     return (
         <div className={''}>
-            <Image src={imagePath} height={height} width={width} alt={alt} quality={90}/>
+            <Image src={imagePath} height={height} width={width} alt={alt} quality={90} style={{height: "auto", width:"80vw"}}/>
         </div>
     )
 }

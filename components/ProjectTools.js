@@ -11,7 +11,7 @@ export default function ProjectTools(props) {
 
     return (
         <div className={''}>
-            <p>Created with: {tools}</p>
+            <p>Created with: {toolsFormatted}</p>
         </div>
     )
 }
