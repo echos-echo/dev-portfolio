@@ -10,13 +10,31 @@ import EmailIcon from '@mui/icons-material/Email';
 
 export default function AboutMeLinks() {
 
-    
+    const copyEmail = async() => {
+        try {
+            await navigator.clipboard.writeText(`e.young.echo@gmail.com`);
+            alert('Email copied to clipboard! I look forward to hearing from you.');
+        } catch(err) {
+            console.error('Failed to copy email!!!', err);
+        }
+    }
+
+    const preventRefresh = e => {
+        e.preventDefault();
+    }
 
     return (
         <div className={''}>
-            <GitHubIcon sx={{fontSize: 60}}/>
-            <LinkedInIcon sx={{fontSize: 60}}/>
-            <EmailIcon sx={{fontSize: 60}}/>
+            <a href='https://github.com/echos-echo' target={'_blank'} rel={'noreferrer'}>
+                <GitHubIcon sx={{fontSize: 60}}/>
+            </a>
+            <a href='https://www.linkedin.com/in/echos-echo/' target={'_blank'} rel={'noreferrer'}>
+                <LinkedInIcon sx={{fontSize: 60}}/>
+            </a>
+            <a href='' onClick={preventRefresh}>
+                <EmailIcon sx={{fontSize: 60}} onClick={copyEmail}/>
+            </a>
+            
         </div>
     )
 }
