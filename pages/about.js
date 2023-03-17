@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import AboutMeContainer from '../components/AboutMeContainer'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
@@ -18,17 +19,7 @@ export default function About() {
       <Header/>
       <div className={styles.main}>
         <PageTitle title='About'/>
-
-        <div className={styles.description}>
-          row with logos for ways to contact me 
-          <br/>
-          there&apos;ll be some description about me here
-          <br/>
-          as well as an image of me
-          <br/>
-          and then some of my skillset etc 
-        </div>
-        
+        <AboutMeContainer/>
       </div>
       <Footer/>
     </div>
