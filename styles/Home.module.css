@@ -39,7 +39,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
 }
 
 .title {
@@ -147,10 +146,47 @@
   justify-content: space-between;
 }
 
+.aboutMeContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 2rem;
+  background-color: white;
+}
+
+.aboutMeLeft, .aboutMeRight {
+  width: 50%;
+  height: 100%;
+}
+
+.aboutMeLeft img {
+  height: auto;
+  width: 100%;
+  margin: -4px 0px;
+  padding: 0px;
+}
+
+.aboutMeRight {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 3% 5%;
+  line-height: 1.5rem;
+}
+
+.aboutMeLinks * {
+  margin: 0.7rem;
+}
+
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
+  .aboutMeContainer {
     flex-direction: column;
+  }
+  .aboutMeLeft, .aboutMeRight {
+    width: 100%;
   }
 }
 

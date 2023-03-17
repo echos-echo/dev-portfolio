@@ -24,7 +24,7 @@ export default function AboutMeLinks() {
     }
 
     return (
-        <div className={''}>
+        <div className={styles.aboutMeLinks}>
             <a href='https://github.com/echos-echo' target={'_blank'} rel={'noreferrer'}>
                 <GitHubIcon sx={{fontSize: 60}}/>
             </a>
