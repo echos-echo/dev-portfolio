@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import AboutMeLinks from '../components/AboutMeLinks'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
@@ -18,7 +19,7 @@ export default function About() {
       <Header/>
       <div className={styles.main}>
         <PageTitle title='About'/>
-
+        <AboutMeLinks/>
         <div className={styles.description}>
           row with logos for ways to contact me 
           <br/>
