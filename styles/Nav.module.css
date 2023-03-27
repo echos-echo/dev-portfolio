@@ -4,7 +4,8 @@
     top: -100px;
     width: 100vw;
     height: 5.15rem;
-    background-color: rgb(69, 70, 96);
+    /* background-color: rgb(69, 70, 96); */
+    background: url('/river.jpg') 0px 65%/cover;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
