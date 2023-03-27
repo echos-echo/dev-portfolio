@@ -10,7 +10,7 @@ export default function Header() {
 
     return (
         <div className={styles.header}>
-            <Link href="/"><h1>return to splash</h1></Link>
+            <Link href="/"><h1>E.Cho</h1></Link>
             <NavButtons href='gallery' name='Gallery'/>
             <NavButtons href='about' name='About'/>
         </div>
