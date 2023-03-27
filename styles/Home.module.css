@@ -178,16 +178,22 @@
   color: black;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 3% 5%;
   line-height: 1.5rem;
 }
 
 .aboutMeLinks {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-evenly;
   margin: 15px 0px 0px;
 }
 
 .aboutMeLinks * {
-  margin: 0.7rem;
+  width: 100%;
 }
 
 .skills {

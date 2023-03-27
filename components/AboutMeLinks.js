@@ -7,6 +7,7 @@ import styles from '../styles/Home.module.css'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
+import FileOpenIcon from '@mui/icons-material/FileOpen';
 
 export default function AboutMeLinks() {
 
@@ -33,6 +34,9 @@ export default function AboutMeLinks() {
             </a>
             <a href='' onClick={preventRefresh}>
                 <EmailIcon sx={{fontSize: 60}} onClick={copyEmail}/>
+            </a>
+            <a href='/Eve_Cho_resume.pdf' target={'_blank'} rel={'noopener noreferrer'}>
+                <FileOpenIcon sx={{fontSize: 60}}/>
             </a>
             
         </div>
