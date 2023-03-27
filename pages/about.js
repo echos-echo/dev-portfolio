@@ -21,7 +21,6 @@ export default function About() {
       <div className={styles.main}>
         <PageTitle title='About'/>
         <AboutMeContainer/>
-        <AboutMeSkills/>
       </div>
       <Footer/>
     </div>

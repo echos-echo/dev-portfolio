@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import styles from '../styles/Home.module.css'
 import AboutMeLinks from "./AboutMeLinks";
+import AboutMeSkills from "./AboutMeSkills";
 
 export default function AboutMeContainer() {
 
@@ -25,8 +26,9 @@ export default function AboutMeContainer() {
             </div>
             <br/>
             <AboutMeLinks/>
+            <br/>
+            <AboutMeSkills/>
             </div>
-            
             
         </div>
     )
