@@ -208,10 +208,9 @@
 }
 
 .aboutMeLeft img {
-  height: auto;
+  margin-bottom: -5px;
+  height: 100%;
   width: 100%;
-  margin: -4px 0px;
-  padding: 0px;
 }
 
 .aboutMeRight {
@@ -222,6 +221,10 @@
   align-items: center;
   padding: 3% 5%;
   line-height: 1.5rem;
+}
+
+.aboutMeRight svg {
+  margin: 10px 0px;
 }
 
 .aboutMeLinks {
@@ -237,7 +240,6 @@
 }
 
 .skills {
-  margin-top: 15px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -257,6 +259,7 @@
     width: 100%;
   }
   .aboutMeRight {
+    padding: 5% 6%;
     justify-content: center;
     align-items: center;
     background-color: white;
