@@ -18,7 +18,7 @@ export default function Gallery() {
       <Nav/>
       <Header/>
       <div className={styles.main}>
-        <PageTitle title='Project Gallery'/>
+        <PageTitle title='Gallery'/>
         {/* props needed are
         title, imagePath, height, width, imgAlt, description, tools, repoURL, siteURL */}
         <ProjectContainer

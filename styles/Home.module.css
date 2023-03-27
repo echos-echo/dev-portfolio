@@ -28,7 +28,7 @@
 .pageTitle {
   width: 100%;
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.8rem;
 }
 
 .splash {
@@ -76,7 +76,7 @@
   align-items: center;
   margin: 0;
   line-height: 2.0;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .title > * {
