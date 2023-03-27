@@ -14,14 +14,14 @@ export default function AboutMeContainer() {
             <div className={styles.aboutMeRight}>
             <div>
             I&apos;m Eve Cho, a software engineer based just out of NYC.
-            I develop for the joy of solving problems and watching applications come to life.
+            I develop for the joy of watching applications come to life.
             <br/><br/>
             When I&apos;m not committing code, I&apos;m committed to drawing, gaming,
             and daydreaming of places to travel. 
             </div>
-            <br/>
+            ________
             <AboutMeLinks/>
-            <br/>
+            ________
             <AboutMeSkills/>
             </div>
             <div className={styles.aboutMeLeft}>

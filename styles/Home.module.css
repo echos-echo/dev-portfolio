@@ -182,11 +182,16 @@
   line-height: 1.5rem;
 }
 
+.aboutMeLinks {
+  margin: 15px 0px 0px;
+}
+
 .aboutMeLinks * {
   margin: 0.7rem;
 }
 
 .skills {
+  margin-top: 15px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
