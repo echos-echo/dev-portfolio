@@ -25,7 +25,6 @@ export default function AboutMeSkills() {
             width={100} height={100} alt={'html5 logo'}/>
             <Image src={'https://cdn.worldvectorlogo.com/logos/css-3.svg'}
             width={100} height={100} alt={'css3 logo'}/>
-
         </div>
     )
 }

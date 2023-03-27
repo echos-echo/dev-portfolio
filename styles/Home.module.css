@@ -194,8 +194,8 @@
 }
 
 .skills > img {
-  width: 20%;
-  padding: 2% 2%;
+  width: 24%;
+  padding: 2%;
 }
 
 @media (max-width: 785px) {
@@ -210,6 +210,13 @@
     align-items: center;
     background-color: white;
     height: fit-content;
+  }
+  .skills {
+    width: 80%;
+  }
+  .skills > img {
+    width: 20%;
+    padding: 2%;
   }
 }
 
