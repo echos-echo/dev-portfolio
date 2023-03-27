@@ -11,9 +11,7 @@
   left: 0px;
   max-height: 55vh;
   width: 100%;
-  background-image: url('/river.jpg');
-  background-size: cover;
-  background-position: 0px 70%;
+  background: linear-gradient(transparent, 80%, rgb(46, 53, 72)), url('/river.jpg') 0px 70%/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,9 +22,7 @@
   position: relative;
   height: 10vh;
   width: 100%;
-  background-image: url('/river.jpg');
-  background-size: cover;
-  background-position: 0px 80%;
+  background: linear-gradient(to top, transparent, 80%, rgb(46, 53, 72)), url('/river.jpg') 0px 80%/cover;
 }
 
 .pageTitle {
@@ -36,7 +32,12 @@
 }
 
 .splash {
-  background-image: url('/river.jpg');
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.8),
+    60%,
+    rgba(0, 0, 0, 0.3)
+  ), url('/river.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
