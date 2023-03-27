@@ -22,9 +22,11 @@
 
 .footer {
   position: relative;
-  height: 15vh;
+  height: 10vh;
   width: 100%;
-  background-color: cornflowerblue;
+  background-image: url('/river.jpg');
+  background-size: cover;
+  background-position: 0px 80%;
 }
 
 .pageTitle {
