@@ -3,8 +3,6 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-  Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .header {
@@ -31,13 +29,22 @@
   width: 100%;
   text-align: center;
   font-size: 3rem;
-  font-variant: small-caps;
+}
+
+.splash {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
   width: 100%;
-  min-height: 100vh;
-  padding: 4rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -131,7 +138,7 @@
   padding: 2%;
   border: 2px black solid;
   border-radius: 25px;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s ease;
 }
 
 .projectContainer:hover {
