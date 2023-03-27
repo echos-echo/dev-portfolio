@@ -182,14 +182,14 @@
   align-items: center;
   margin: 3rem 1rem;
   padding: 2%;
-  border: 2px black solid;
-  border-radius: 25px;
-  transition: background-color 0.2s ease;
+  border-radius: 25px 0px 0px 25px;
+  transition: color 0.2s ease, padding 0.5s ease;
+  background: linear-gradient(to right, rgb(42, 39, 39) 60%, transparent);
 }
 
 .projectContainer:hover {
-  border: 2px white solid;
-  background-color:dodgerblue;
+  color:rgb(250, 215, 159);
+  padding: 4%;
 }
 
 .projectRight, .projectLeft {
@@ -290,19 +290,19 @@
 @media (max-width: 628px) {
   .projectContainer {
     flex-direction: column;
-    width: 90vw;
+    width: 80vw;
     justify-content: space-evenly;
     align-items: center;
-    margin: 1.7rem 1rem;
-    padding: 5%;
-    border: 2px black solid;
-    border-radius: 25px;
-    transition: background-color 0.2s;
+    margin: 1.3rem 1rem;
+    padding: 3% 5%;
+    border-radius: 20px 20px 0px 0px;
+    transition: color 0.2s ease, padding 0.5s ease;
+    background: linear-gradient(rgb(42, 39, 39) 60%, transparent);
   }
   
   .projectContainer:hover {
-    border: 2px white solid;
-    background-color:dodgerblue;
+    color:rgb(250, 215, 159);
+    padding: 7%;
   }
   
   .projectRight, .projectLeft {
