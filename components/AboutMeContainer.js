@@ -11,11 +11,6 @@ export default function AboutMeContainer() {
 
     return (
         <div className={styles.aboutMeContainer}>
-            <div className={styles.aboutMeLeft}>
-            <Image src='/me.JPG' height={500} width={500} alt='will be an image of me'
-            quality={100}/>
-
-            </div>
             <div className={styles.aboutMeRight}>
             <div>
             I&apos;m Eve Cho, a software engineer based just out of NYC.
@@ -28,6 +23,10 @@ export default function AboutMeContainer() {
             <AboutMeLinks/>
             <br/>
             <AboutMeSkills/>
+            </div>
+            <div className={styles.aboutMeLeft}>
+            <Image src='/me.JPG' height={500} width={500} alt='will be an image of me'
+            quality={100}/>
             </div>
             
         </div>

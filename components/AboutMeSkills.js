@@ -13,7 +13,7 @@ export default function AboutMeSkills() {
             width={100} height={100} alt={'javascript logo'}/>
             <Image src={'https://cdn.worldvectorlogo.com/logos/typescript.svg'}
             width={100} height={100} alt={'typescript logo'}/>
-            <Image src={'https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg'}
+            <Image src={'https://cdn.worldvectorlogo.com/logos/nodejs-2.svg'}
             width={100} height={100} alt={'node.js logo'}/>
             <Image src={'https://cdn.worldvectorlogo.com/logos/next-js.svg'}
             width={100} height={100} alt={'next.js logo'}/>
