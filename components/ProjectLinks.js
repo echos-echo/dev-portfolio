@@ -12,7 +12,6 @@ export default function ProjectLinks(props) {
 
     return (
         <div className={''}>
-            placeholder but this will be where links relevant to a project will go
             <br/>
             {/* repository link */}
             <a href={repo} rel={'noreferrer'} target={'_blank'}>Check out {projectName}&apos;s repository</a>
