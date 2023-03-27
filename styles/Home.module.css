@@ -32,6 +32,9 @@
 }
 
 .splash {
+  background-image: url('/river.jpg');
+  background-size: cover;
+  background-position: center;
   width: 100%;
   min-height: 100vh;
   padding: 2rem 0;
