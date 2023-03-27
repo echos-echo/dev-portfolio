@@ -128,22 +128,6 @@
   background-color: rgba(255, 218, 85, 0.512);
 }
 
-.navButton h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.navButton p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
 .splashTitle {
   opacity: 0;
   font-size: 3.2rem;
@@ -262,6 +246,10 @@
 .skills > img {
   width: 24%;
   padding: 2%;
+}
+
+.projectLink {
+
 }
 
 @media (max-width: 785px) {
