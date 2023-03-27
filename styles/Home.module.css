@@ -7,6 +7,7 @@
 }
 
 .header {
+  opacity: 0;
   position: relative;
   top: 0px;
   left: 0px;
@@ -17,9 +18,11 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem 0rem;
+  animation: 1s ease 1 forwards fadein;
 }
 
 .footer {
+  opacity: 0;
   position: absolute;
   bottom: 0;
   margin-top: auto;
@@ -29,6 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: 1s ease 1 forwards fadein;
 }
 
 .pageTitle {
@@ -38,6 +42,7 @@
 }
 
 .splash {
+  opacity: 0;
   background-image: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0.8),
@@ -54,12 +59,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: 2s ease 1 fadein;
+  animation: 2s ease 1 forwards fadein;
 }
 
 @keyframes fadein {
   from {
-    background-color: white;
     opacity: 0;
   }
   to {
@@ -68,6 +72,7 @@
 }
 
 .main {
+  opacity: 0;
   width: 100%;
   padding: 2rem 0 10vh;
   flex: 1;
@@ -75,6 +80,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: 2s ease 0.3s 1 forwards fadein;
 }
 
 .title {
