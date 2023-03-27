@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.css'
 export default function AboutMeSkills() {
 
     return (
-        <div className={''}>
+        <div className={styles.skills}>
             <Image src={'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg'}
             width={100} height={100} alt={'javascript logo'}/>
             <Image src={'https://cdn.worldvectorlogo.com/logos/typescript.svg'}

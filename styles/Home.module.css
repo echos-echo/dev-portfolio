@@ -185,6 +185,17 @@
   margin: 0.7rem;
 }
 
+.skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills > img {
+  padding: 2%;
+}
+
 @media (max-width: 600px) {
   .aboutMeContainer {
     flex-direction: column;
