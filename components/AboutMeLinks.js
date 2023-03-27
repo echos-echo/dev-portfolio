@@ -38,7 +38,6 @@ export default function AboutMeLinks() {
             <a href='/Eve_Cho_resume.pdf' target={'_blank'} rel={'noopener noreferrer'}>
                 <FileOpenIcon sx={{fontSize: 60}}/>
             </a>
-            
         </div>
     )
 }

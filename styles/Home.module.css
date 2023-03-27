@@ -23,6 +23,9 @@
   height: 10vh;
   width: 100%;
   background: linear-gradient(to top, transparent, 80%, rgb(46, 53, 72)), url('/river.jpg') 0px 80%/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pageTitle {

@@ -13,6 +13,9 @@ export default function Footer() {
             <a href='https://github.com/echos-echo/dev-portfolio' target={'_blank'} rel={'noreferrer'}>
                 <GitHubIcon sx={{fontSize: 40}}/>
             </a>
+            <a href='https://github.com/echos-echo/dev-portfolio' target={'_blank'} rel={'noreferrer'}>
+                <span>&nbsp;check out the GitHub for this site</span>
+            </a>
         </div>
     )
 }
