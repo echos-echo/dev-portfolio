@@ -173,13 +173,13 @@
 
 .projectContainer:hover {
   color:rgb(250, 215, 159);
-  padding: 4%;
+  padding: 3%;
 }
 
 .projectRight, .projectLeft {
   display: flex;
   flex-direction: column;
-  width: 48%;
+  width: 50%;
   padding: 2%;
 }
 
