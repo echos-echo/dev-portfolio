@@ -3,7 +3,8 @@
     position: fixed;
     top: -100px;
     width: 100vw;
-    height: 5.15rem;
+    height: 5.2rem;
+    padding: 8px;
     /* background-color: rgb(69, 70, 96); */
     background: url('/river.jpg') 0px 65%/cover;
     display: flex;
