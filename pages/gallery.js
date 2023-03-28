@@ -45,8 +45,8 @@ export default function Gallery() {
           imgAlt={'demo of the ao3 muter site'}
           description={'Simple CSS generator meant to be used in conjunction with archiveofourown’s custom CSS functionality. Given the link to a tag, or the link to a fic, it will generate CSS for a user to mute said tag from showing up in their searches.'}
           tools={['ReactJS', 'NextJS', 'clipboard API']}
-          repoURL={'https://github.com/OG-FSA-2208/Optimate'} 
-          siteURL={'https://optim8.netlify.app/'}
+          repoURL={'https://github.com/echos-echo/ao3-muted'} 
+          siteURL={'https://ao3-muter.netlify.app'}
         />
         <ProjectContainer
           title={'Dev Portfolio'}
@@ -54,8 +54,8 @@ export default function Gallery() {
           imgAlt={``}
           description={`Site where my projects and growth as a developer are showcased. You're looking at it!`}
           tools={['ReactJS', 'NextJS', 'material-ui']}
-          repoURL={'https://github.com/OG-FSA-2208/Optimate'} 
-          siteURL={'https://optim8.netlify.app/'}
+          repoURL={'https://github.com/echos-echo/dev-portfolio'} 
+          siteURL={'https://echos-echo.link'}
         />
         <ProjectContainer
           title={'Pokemon TCG Store'}
@@ -63,7 +63,7 @@ export default function Gallery() {
           imgAlt={'demo gif of optimate'}
           description={'Mock e-commerce site that sells Pokémon TCG cards. The homepage shows the top popular buys, and you can sort by type, rarity, collection, or even a combination. The site is no longer live, but feel free to look at our repository.'}
           tools={['ReactJS','postgreSQL', 'Redux', 'axios', 'Pokemon TCG API']}
-          repoURL={'https://github.com/OG-FSA-2208/Optimate'}
+          repoURL={'https://github.com/power-puff-girls-fullstack-2208/grace-shopper'}
         />
         
       </div>
