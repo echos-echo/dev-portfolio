@@ -15,7 +15,6 @@ export default function Home() {
 
       <main className={styles.splash}>
         <SplashContainer/>
-          <h1>SITE UNDER CONSTRUCTION</h1>
       </main>
     </div>
   )
