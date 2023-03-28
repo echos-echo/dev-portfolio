@@ -25,7 +25,7 @@ export default function Gallery() {
           title={'i see hue'}
           imagePath={'/i-see-hue-demo.png'} height={500} width={500}
           imgAlt={'demo gif of i see hue'}
-          description={'Simple click-n-drag color sorting game, with various different modes of difficulty.'}
+          description={'Simple click-n-drag color sorting game, with various modes of difficulty.'}
           tools={['ReactJS', 'react-beautiful-dnd']}
           repoURL={'https://github.com/echos-echo/i-see-hue'}
           siteURL={'https://i-see-hue.netlify.app/'}
@@ -34,7 +34,7 @@ export default function Gallery() {
           title={'Optimate'}
           imagePath={'/optimate-demo.png'} height={500} width={500}
           imgAlt={'demo gif of optimate'}
-          description={'Dating app that lets you connect with your potential “the one that got away”. Instead of endless swiping on profiles, your matches are the optimal selection for you—just 8 of them daily. '}
+          description={'Dating app that lets you connect with your potential “the one that got away”. Instead of endless swiping, your matches are the optimal selection for you—just 8 of them daily.'}
           tools={['ReactJS', 'NextJS', 'supabase', 'Redux', 'axios', 'Motion', 'LESS', 'material-ui']}
           repoURL={'https://github.com/OG-FSA-2208/Optimate'} 
           siteURL={'https://optim8.netlify.app/'}
@@ -43,7 +43,7 @@ export default function Gallery() {
           title={'ao3 muter'}
           imagePath={'/ao3-muter.png'} height={500} width={500}
           imgAlt={'demo of the ao3 muter site'}
-          description={'Simple CSS generator meant to be used in conjunction with archiveofourown’s custom CSS functionality. Given the link to a tag, or the link to a fic, it will generate CSS for a user to mute said tag from showing up in their searches.'}
+          description={'Simple CSS generator meant to be used in conjunction with archiveofourown’s custom CSS functionality, where you can now mute tags from appearing.'}
           tools={['ReactJS', 'NextJS', 'clipboard API']}
           repoURL={'https://github.com/echos-echo/ao3-muted'} 
           siteURL={'https://ao3-muter.netlify.app'}
@@ -54,14 +54,13 @@ export default function Gallery() {
           imgAlt={``}
           description={`Site where my projects and growth as a developer are showcased. You're looking at it!`}
           tools={['ReactJS', 'NextJS', 'material-ui']}
-          repoURL={'https://github.com/echos-echo/dev-portfolio'} 
-          siteURL={'https://echos-echo.link'}
+          repoURL={'https://github.com/echos-echo/dev-portfolio'}
         />
         <ProjectContainer
           title={'Pokemon TCG Store'}
           imagePath={'/pokemonTCG-banner.jpg'} height={500} width={500}
           imgAlt={'demo gif of optimate'}
-          description={'Mock e-commerce site that sells Pokémon TCG cards. The homepage shows the top popular buys, and you can sort by type, rarity, collection, or even a combination. The site is no longer live, but feel free to look at our repository.'}
+          description={'Mock e-commerce site that sells Pokémon cards. You can sort by type, rarity, collection, or even a combination. The site is no longer live, but feel free to look at our repository.'}
           tools={['ReactJS','postgreSQL', 'Redux', 'axios', 'Pokemon TCG API']}
           repoURL={'https://github.com/power-puff-girls-fullstack-2208/grace-shopper'}
         />
