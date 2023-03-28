@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import styles from '../styles/Home.module.css'
 import AboutMeLinks from "./AboutMeLinks";
 import AboutMeSkills from "./AboutMeSkills";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function AboutMeContainer() {
 
@@ -19,9 +20,9 @@ export default function AboutMeContainer() {
             When I&apos;m not committing code, I&apos;m committed to drawing, gaming,
             and daydreaming of places to travel. 
             </div>
-            ________
+            <ExpandMoreIcon/>
             <AboutMeLinks/>
-            ________
+            <ExpandMoreIcon/>
             <AboutMeSkills/>
             </div>
             <div className={styles.aboutMeLeft}>

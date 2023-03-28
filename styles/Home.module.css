@@ -1,48 +1,86 @@
 .container {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-  Bitstream Vera Sans Mono, Courier New, monospace;
+  position: relative;
 }
 
 .header {
+  opacity: 0;
   position: relative;
   top: 0px;
   left: 0px;
-  max-height: 50vh;
+  max-height: 55vh;
   width: 100%;
-  background-color: cornflowerblue;
+  background: linear-gradient(transparent, 80%, rgb(46, 53, 72)), url('/river.jpg') 0px 70%/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem 0rem;
+  animation: 1s ease 1 forwards fadein;
 }
 
 .footer {
-  position: relative;
-  height: 15vh;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  margin-top: auto;
+  height: 10vh;
   width: 100%;
-  background-color: cornflowerblue;
+  background: linear-gradient(to top, transparent, 80%, rgb(46, 53, 72)), url('/river.jpg') 0px 80%/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 1s ease 1 forwards fadein;
 }
 
 .pageTitle {
   width: 100%;
   text-align: center;
-  font-size: 3rem;
-  font-variant: small-caps;
+  font-size: 1.8rem;
 }
 
-.main {
+.splash {
+  opacity: 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.8),
+    60%,
+    rgba(0, 0, 0, 0.3)
+  ), url('/river.jpg');
+  background-size: cover;
+  background-position: center;
   width: 100%;
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: 2s ease 1 forwards fadein;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.main {
+  opacity: 0;
+  width: 100%;
+  padding: 2rem 0 10vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: 2s ease 0.3s 1 forwards fadein;
 }
 
 .title {
@@ -50,7 +88,7 @@
   align-items: center;
   margin: 0;
   line-height: 2.0;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .title > * {
@@ -70,55 +108,54 @@
 
 .navButton {
   font-size: 1rem;
-  margin: 1rem;
+  margin: 0.7rem;
   padding: 1rem 2.5rem;
-  text-align: left;
-  color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 2rem;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.2s ease;
+}
+
+.navButton svg {
+  margin: -5px 0.3rem;
 }
 
 .navButton:hover,
 .navButton:focus,
 .navButton:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.navButton h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.navButton p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+  color: #1b1c1e;
+  border-color: #1b1c1e;
+  background-color: rgba(255, 218, 85, 0.512);
 }
 
 .splashTitle {
+  opacity: 0;
   font-size: 3.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  animation: 1s ease 0.3s 1 forwards fadeinSplash;
 }
 
 .splashDescription {
+  opacity: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  animation: 2s ease 1s 1 forwards fadeinSplash;
+}
+
+@keyframes fadeinSplash {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .projectContainer {
@@ -129,20 +166,20 @@
   align-items: center;
   margin: 3rem 1rem;
   padding: 2%;
-  border: 2px black solid;
-  border-radius: 25px;
-  transition: background-color 0.2s;
+  border-radius: 25px 0px 0px 25px;
+  transition: color 0.2s ease, padding 0.5s ease;
+  background: linear-gradient(to right, rgb(42, 39, 39) 60%, transparent);
 }
 
 .projectContainer:hover {
-  border: 2px white solid;
-  background-color:dodgerblue;
+  color:rgb(250, 215, 159);
+  padding: 3%;
 }
 
 .projectRight, .projectLeft {
   display: flex;
   flex-direction: column;
-  width: 48%;
+  width: 50%;
   padding: 2%;
 }
 
@@ -168,10 +205,9 @@
 }
 
 .aboutMeLeft img {
-  height: auto;
+  margin-bottom: -5px;
+  height: 100%;
   width: 100%;
-  margin: -4px 0px;
-  padding: 0px;
 }
 
 .aboutMeRight {
@@ -182,6 +218,10 @@
   align-items: center;
   padding: 3% 5%;
   line-height: 1.5rem;
+}
+
+.aboutMeRight svg {
+  margin: 10px 0px;
 }
 
 .aboutMeLinks {
@@ -197,7 +237,6 @@
 }
 
 .skills {
-  margin-top: 15px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -209,6 +248,25 @@
   padding: 2%;
 }
 
+.projectLink {
+  color: rgb(255, 183, 49);
+  font-size: 0.9rem;
+  margin: 1rem 15px;
+  padding: 0.6rem 0rem;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 2rem;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.2s ease;
+}
+
+.projectLink:hover,
+.projectLink:focus,
+.projectLink:active {
+  color: #1b1c1e;
+  border-color: #1b1c1e;
+  background-color: rgba(255, 218, 85, 0.512);
+}
+
 @media (max-width: 785px) {
   .aboutMeContainer {
     flex-direction: column;
@@ -217,6 +275,7 @@
     width: 100%;
   }
   .aboutMeRight {
+    padding: 5% 6%;
     justify-content: center;
     align-items: center;
     background-color: white;
@@ -234,37 +293,24 @@
 @media (max-width: 628px) {
   .projectContainer {
     flex-direction: column;
-    width: 90vw;
+    width: 80vw;
     justify-content: space-evenly;
     align-items: center;
-    margin: 1.7rem 1rem;
-    padding: 5%;
-    border: 2px black solid;
-    border-radius: 25px;
-    transition: background-color 0.2s;
+    margin: 1.3rem 1rem;
+    padding: 3% 5%;
+    border-radius: 20px 20px 0px 0px;
+    transition: color 0.2s ease, padding 0.5s ease;
+    background: linear-gradient(rgb(42, 39, 39) 60%, transparent);
   }
   
   .projectContainer:hover {
-    border: 2px white solid;
-    background-color:dodgerblue;
+    color:rgb(250, 215, 159);
+    padding: 7%;
   }
   
   .projectRight, .projectLeft {
     display: flex;
     flex-direction: column;
     width: 100%;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .navButton,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
   }
 }

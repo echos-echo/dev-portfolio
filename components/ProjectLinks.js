@@ -3,7 +3,8 @@ import { ReactDOM } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
+import ProjectLink from "./ProjectLink";
 
 export default function ProjectLinks(props) {
     const repo = props.repo;
@@ -12,12 +13,12 @@ export default function ProjectLinks(props) {
 
     return (
         <div className={''}>
-            placeholder but this will be where links relevant to a project will go
-            <br/>
             {/* repository link */}
-            <a href={repo} rel={'noreferrer'} target={'_blank'}>Check out {projectName}&apos;s repository</a>
+            <ProjectLink url={repo} linkMessage={`${projectName}'s repository`}/>
             {/* site link ONLY if it exists */}
-            {siteURL !== null ? <a href={siteURL} rel={'noreferrer'} target={'_blank'}>Check out {projectName} here</a> : null}
+            {siteURL !== null ?
+            <ProjectLink url={siteURL} linkMessage={`${projectName} is live here`}/>
+            : null}
         </div>
     )
 }

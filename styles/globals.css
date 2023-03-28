@@ -2,10 +2,10 @@ html,
 body {
   background-color: red;
   width: 100%;
+  min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Consolas, monaco, monospace;
 }
 
 a {
@@ -22,7 +22,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: blue;
+    color: #eaeaea;
+    background: rgb(46, 53, 72);
   }
 }

@@ -4,28 +4,15 @@
     top: -100px;
     width: 100vw;
     height: 5.15rem;
-    background-color: brown;
+    /* background-color: rgb(69, 70, 96); */
+    background: url('/river.jpg') 0px 65%/cover;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     transition: top 0.3s;
 }
 
-.main {
-    width: 100vw;
-    height: 100vh;
-    padding: 20px;
-    background-color: green;
-}
-
 @media screen and (max-width: 500px) {
-    .container {
-        flex-direction: column;
-    }
-    .main {
-        height: 100%;
-        width: 100%;
-    }
 
     .nav {
         height: 80px;
