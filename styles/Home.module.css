@@ -98,10 +98,11 @@
 }
 
 .navButton {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0.7rem;
-  padding: 1rem 2.5rem;
+  padding: 0.9rem 2rem;
   text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid #eaeaea;
   border-radius: 2rem;
   transition: color 0.15s ease, border-color 0.15s ease, background-color 0.2s ease;
@@ -159,8 +160,8 @@
   padding: 1%;
   border-radius: 10px 0px 0px 10px;
   transition: color 0.2s ease, padding 0.5s ease;
-  background: linear-gradient(to right, rgb(42, 39, 39) 60%, transparent);
-  box-shadow: 50px 0px rgb(46, 53, 72), -15px 0px 50px -10px #97846a;
+  background: linear-gradient(to right, rgb(109, 116, 137) 60%, #eaeaea);
+  box-shadow: 50px 0px #eaeaea, -15px 0px 50px -10px #3a3d51;
 }
 
 .projectContainer:hover {
@@ -187,7 +188,7 @@
   justify-content: space-between;
   text-align: center;
   margin-top: 2rem;
-  background-color: #eaeaea;
+  background-color: #c3c5cb;
 }
 
 .aboutMeLeft, .aboutMeRight {
