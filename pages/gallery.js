@@ -49,7 +49,7 @@ export default function Gallery() {
           siteURL={'https://ao3-muter.netlify.app'}
         />
         <ProjectContainer
-          title={'Dev Portfolio'}
+          title={`My Portfolio`}
           imagePath={'/portfolio.png'} height={500} width={500}
           imgAlt={``}
           description={`Site where my projects and growth as a developer are showcased. You're looking at it!`}
