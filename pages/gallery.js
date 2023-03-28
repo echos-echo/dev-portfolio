@@ -23,7 +23,7 @@ export default function Gallery() {
         title, imagePath, height, width, imgAlt, description, tools, repoURL, siteURL */}
         <ProjectContainer
           title={'i see hue'}
-          imagePath={'/i-see-hue-demo.gif'} height={500} width={500}
+          imagePath={'/i-see-hue-demo.png'} height={500} width={500}
           imgAlt={'demo gif of i see hue'}
           description={'Simple click-n-drag color sorting game, with various different modes of difficulty.'}
           tools={['ReactJS', 'react-beautiful-dnd']}
@@ -32,7 +32,7 @@ export default function Gallery() {
         />
         <ProjectContainer
           title={'Optimate'}
-          imagePath={'/optimate-demo.gif'} height={500} width={500}
+          imagePath={'/optimate-demo.png'} height={500} width={500}
           imgAlt={'demo gif of optimate'}
           description={'Dating app that lets you connect with your potential “the one that got away”. Instead of endless swiping on profiles, your matches are the optimal selection for you—just 8 of them daily. '}
           tools={['ReactJS', 'NextJS', 'supabase', 'Redux', 'axios', 'Motion', 'LESS', 'material-ui']}
@@ -41,7 +41,7 @@ export default function Gallery() {
         />
         <ProjectContainer
           title={'ao3 muter'}
-          imagePath={''} height={500} width={500}
+          imagePath={'/ao3-muter.png'} height={500} width={500}
           imgAlt={'demo of the ao3 muter site'}
           description={'Simple CSS generator meant to be used in conjunction with archiveofourown’s custom CSS functionality. Given the link to a tag, or the link to a fic, it will generate CSS for a user to mute said tag from showing up in their searches.'}
           tools={['ReactJS', 'NextJS', 'clipboard API']}
@@ -50,7 +50,7 @@ export default function Gallery() {
         />
         <ProjectContainer
           title={'Dev Portfolio'}
-          imagePath={''} height={500} width={500}
+          imagePath={'/portfolio.png'} height={500} width={500}
           imgAlt={``}
           description={`Site where my projects and growth as a developer are showcased. You're looking at it!`}
           tools={['ReactJS', 'NextJS', 'material-ui']}
