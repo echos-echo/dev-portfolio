@@ -20,7 +20,7 @@ export default function Home() {
           content="E. Cho is busy committing code... but you can check out their projects here."
         />
         <meta name="description" content="E. Cho is busy committing code... but you can check out their projects here." />
-        <meta property="og:image" content={'/portfolio.png' || 'https://echos-echo.link/_next/image?url=%2Fportfolio.png&w=640&q=90'} />
+        <meta property="og:image" content={'https://echos-echo.link/_next/image?url=%2Fportfolio.png&w=640&q=90'} />
         <meta name="twitter:card" content="summary" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
